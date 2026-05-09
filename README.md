@@ -40,36 +40,45 @@ Test Pass
 
 
 Test 3: shape=2 (Pyramid), Size=4
-Input: 2, 4
-Expected Output:
-   /*
-  /* *
- /* * *
-/* * * *
-
+- Input: 2, 4
+- Expected Output:
+```
+   *
+  * *
+ * * *
+* * * *
+```
 Actual Output:
-   /*
-  /* *
- /* * *
-/* * * *
+```
+   *
+  * *
+ * * *
+* * * *
+```
 Test Pass
 
 Test 4: shape=0 (Triangle), Size=1
 Input: 0, 1
 Expected Output:
-/*
-
+```
+*
+```
 Actual Output:
-/*
+```
+*
+```
 Test Pass
 
 Test 5: shape=1 (Square), Size=1
 Input: 1, 1
 Expected Output:
+```
 *
-
+```
 Actual Output:
+```
 *
+```
 
 Test pass
 
