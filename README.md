@@ -7,13 +7,16 @@ Part A Test Cases:
 Test 1: shape=0 (Triangle), Size=3
 Input: 0, 3
 Expected Output:
+```
 *
 **
 ***
+```
 
 Test 2: shape=1 (Square), Size=10
-Input: 1, 4
+- Input: 1, 4
 Expected Output:
+```
 **********
 **********
 **********
@@ -24,8 +27,9 @@ Expected Output:
 **********
 **********
 **********
-
+```
 Actual Output:
+```
 **********
 **********
 **********
@@ -36,7 +40,8 @@ Actual Output:
 **********
 **********
 **********
-Test Pass
+```
+- Test Pass
 
 
 Test 3: shape=2 (Pyramid), Size=4
@@ -198,3 +203,140 @@ Expected Output: Sorted Array: 100 4 4 3 3 3 2 2 1 1
 Actual Output: Sorted Array: 100 4 4 3 3 3 2 2 1 1
 Test Passed
 
+Part D Test Cases
+
+Test 1:
+
+A=  0, 0, 0, 0 
+	 0, 0, 0, 0 
+	 0, 0, 0, 0 
+	 0, 0, 0, 0 
+
+B=  1, 0, 0, 0  
+	 0, 1, 0, 0 
+	 0, 0, 1, 0 
+	 0, 0, 0, 1 
+
+Expected Output:
+```
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+```
+
+Actual Output:
+```
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+```
+- Test Passed
+
+Test 2:
+
+A = 2 0 0 0
+    0 2 0 0
+    0 0 2 0
+    0 0 0 2
+
+B = 1 2  3  4
+    5 6  7  8
+    9 10 11 12
+    13 14 15 16
+
+Expected Output:
+```
+2 4 6 8
+10 12 14 16
+18 20 22 24
+26 28 30 32
+```
+
+Actual Output:
+```
+2 4 6 8
+10 12 14 16
+18 20 22 24
+26 28 30 32
+```
+Test passed
+Test 3:
+
+A = 1 0 0 0
+    0 1 0 0
+    0 0 1 0
+    0 0 0 1
+
+B = 1 0 0 0
+    0 1 0 0
+    0 0 1 0
+    0 0 0 1
+    
+Expected Output:
+```
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+```
+Test passed
+
+Test 4:
+
+A =  1 0 0 0 
+	  2 0 0 0 
+	  3 0 0 0 
+	  4 0 0 0
+
+B = 1 2 3 4  
+	  5 1 0 0 
+	  0 0 1 0 
+	  0 0 0 1 
+
+Expected Output:
+```
+1 2 3 4 
+2 4 6 8 
+3 6 9 12 
+4 8 12 16 
+```
+
+Actual Output:
+```
+1 2 3 4 
+2 4 6 8 
+3 6 9 12 
+4 8 12 16 
+```
+Test passed
+
+Test 5:
+
+A = 1 2 3 4
+    1 2 3 4
+    1 2 3 4
+    1 2 3 4
+
+B = 1 1 1 1
+    2 2 2 2
+    3 3 3 3
+    4 4 4 4
+
+Expected Output:
+```
+30 30 30 30
+30 30 30 30
+30 30 30 30
+30 30 30 30
+```
+
+Actual output:
+```
+30 30 30 30
+30 30 30 30
+30 30 30 30
+30 30 30 30
+```
+Test Passed
