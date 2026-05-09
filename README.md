@@ -169,38 +169,61 @@ Part C Test Cases
 
 Test 1: 
 Array: {1,1,4,5,6,7,8,6,6,5}
-Expected Output: Sorted Array: 8 7 6 6 6 5 5 4 1 1 
-
-Actual Output:Sorted Array: 8 7 6 6 6 5 5 4 1 1 
+Expected Output: 
+```
+Sorted Array: 8 7 6 6 6 5 5 4 1 1 
+```
+Actual Output:
+```
+Sorted Array: 8 7 6 6 6 5 5 4 1 1 
+```
 Test Pass
 
 Test 2:
 Array: {0,0,0,0,0,0,0,0,0,0}
-Expected Output:Sorted Array: 0,0,0,0,0,0,0,0,0,0
-
+Expected Output:
+```
+Sorted Array: 0,0,0,0,0,0,0,0,0,0
+```
 Actual Output:Sorted Array: 0,0,0,0,0,0,0,0,0,0
 Test Passed
 
 Test 3:
 Array: {-1,-2,-3,-4,-5,-6,-7,-8,-9,-10 }
 
-Expected Output: Sorted Array: -1,-2,-3,-4,-5,-6,-7,-8,-9,-10 
+Expected Output: 
+```
+Sorted Array: -1,-2,-3,-4,-5,-6,-7,-8,-9,-10 
+```
 
-Actual Output: Sorted Array: -1,-2,-3,-4,-5,-6,-7,-8,-9,-10 
+Actual Output: 
+```
+Sorted Array: -1,-2,-3,-4,-5,-6,-7,-8,-9,-10 
+```
 Test passed
 
 Test 4:
 Array: {-10,-9,-8,-7,-6,-5,-4,-3,-2,-1 }
-Expected output: Sorted Array: -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 
-
-Actual Output: Sorted Array: -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 
+Expected output: 
+```
+Sorted Array: -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 
+```
+Actual Output: 
+```
+Sorted Array: -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 
+```
 Test Passed
 
 Test 5:
 Array: {4,4,3,3,3,2,2,1,1,100}
-Expected Output: Sorted Array: 100 4 4 3 3 3 2 2 1 1
-
-Actual Output: Sorted Array: 100 4 4 3 3 3 2 2 1 1
+Expected Output: 
+```
+Sorted Array: 100 4 4 3 3 3 2 2 1 1
+```
+Actual Output: 
+```
+Sorted Array: 100 4 4 3 3 3 2 2 1 1
+```
 Test Passed
 
 Part D Test Cases
