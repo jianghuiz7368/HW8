@@ -42,64 +42,77 @@ Test Pass
 Test 3: shape=2 (Pyramid), Size=4
 Input: 2, 4
 Expected Output:
-   *
-  * *
- * * *
-* * * *
+   /*
+  /* *
+ /* * *
+/* * * *
 
 Actual Output:
-   *
-  * *
- * * *
-* * * *
+   /*
+  /* *
+ /* * *
+/* * * *
 Test Pass
 
 Test 4: shape=0 (Triangle), Size=1
 Input: 0, 1
 Expected Output:
-*
+/*
 
 Actual Output:
-*
+/*
 Test Pass
 
 Test 5: shape=1 (Square), Size=1
 Input: 1, 1
 Expected Output:
 *
+
 Actual Output:
 *
+
 Test pass
 
 Part B Test Cases
 
 Test 1: num=2
+
 A[1]=6
 B[1]=7
 A[2]=1
 B[2]=2
+
 Expected Output:
 6 7|2 1|
+
 Actual Output:
 6 7|2 1|
+
 Test passed
 
 Test 2: num = 2
+
 A[1]=1
 B[1]=1
 A[2]=12
 B[2]=2
+
 Expected Output: 1 1|2 12|
+
 Actual Output:1 1|2 12|
+
 Test passed
 
 Test 3:
 num=2,
+
 A[1]=-1
 B[1]=-3
 A[2]=-5
 B[2]=-3
+
 Expected Output: -3 -1|-3 -5|
+
 Actual Output: -3 -1|-3 -5|
 
 Test 4:
